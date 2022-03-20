@@ -1,5 +1,5 @@
 //Получаем прогноз в массив data
-fetch('http://api.openweathermap.org/data/2.5/weather?id=698740&lang=ru&appid=da43f579966c655f6cd49823daa4c4ef').then(function (resp) {return resp.json() }).then(function (data) {
+fetch('https://api.openweathermap.org/data/2.5/weather?id=698740&lang=ru&appid=da43f579966c655f6cd49823daa4c4ef').then(function (resp) {return resp.json() }).then(function (data) {
     //добавляем название города
     document.querySelector('.weather__city1').textContent = data.name;
     //data.main.temp содержит значение в Кельвинах, отнимаем от  273, чтобы получить значение в градусах Цельсия
@@ -13,7 +13,7 @@ fetch('http://api.openweathermap.org/data/2.5/weather?id=698740&lang=ru&appid=da
         //Обрабатываем ошибки
     });
 
-    fetch('http://api.openweathermap.org/data/2.5/weather?id=709930&lang=ru&appid=da43f579966c655f6cd49823daa4c4ef').then(function (resp) {return resp.json() }).then(function (data) {
+    fetch('https://api.openweathermap.org/data/2.5/weather?id=709930&lang=ru&appid=da43f579966c655f6cd49823daa4c4ef').then(function (resp) {return resp.json() }).then(function (data) {
     //добавляем название города
     document.querySelector('.weather__city2').textContent = data.name;
     //data.main.temp содержит значение в Кельвинах, отнимаем от  273, чтобы получить значение в градусах Цельсия
@@ -27,7 +27,7 @@ fetch('http://api.openweathermap.org/data/2.5/weather?id=698740&lang=ru&appid=da
         //Обрабатываем ошибки
     });
 
-    fetch('http://api.openweathermap.org/data/2.5/weather?id=706483&lang=ru&appid=da43f579966c655f6cd49823daa4c4ef').then(function (resp) {return resp.json() }).then(function (data) {
+    fetch('https://api.openweathermap.org/data/2.5/weather?id=706483&lang=ru&appid=da43f579966c655f6cd49823daa4c4ef').then(function (resp) {return resp.json() }).then(function (data) {
     //добавляем название города
     document.querySelector('.weather__city3').textContent = data.name;
     //data.main.temp содержит значение в Кельвинах, отнимаем от  273, чтобы получить значение в градусах Цельсия
@@ -41,7 +41,7 @@ fetch('http://api.openweathermap.org/data/2.5/weather?id=698740&lang=ru&appid=da
         //Обрабатываем ошибки
     });
 
-    fetch('http://api.openweathermap.org/data/2.5/weather?id=702550&lang=ru&appid=da43f579966c655f6cd49823daa4c4ef').then(function (resp) {return resp.json() }).then(function (data) {
+    fetch('https://api.openweathermap.org/data/2.5/weather?id=702550&lang=ru&appid=da43f579966c655f6cd49823daa4c4ef').then(function (resp) {return resp.json() }).then(function (data) {
     //добавляем название города
     document.querySelector('.weather__city4').textContent = data.name;
     //data.main.temp содержит значение в Кельвинах, отнимаем от  273, чтобы получить значение в градусах Цельсия
@@ -55,7 +55,7 @@ fetch('http://api.openweathermap.org/data/2.5/weather?id=698740&lang=ru&appid=da
         //Обрабатываем ошибки
     });
 
-    fetch('http://api.openweathermap.org/data/2.5/weather?id=703448&lang=ru&appid=da43f579966c655f6cd49823daa4c4ef').then(function (resp) {return resp.json() }).then(function (data) {
+    fetch('https://api.openweathermap.org/data/2.5/weather?id=703448&lang=ru&appid=da43f579966c655f6cd49823daa4c4ef').then(function (resp) {return resp.json() }).then(function (data) {
     //добавляем название города
     document.querySelector('.weather__city5').textContent = data.name;
     //data.main.temp содержит значение в Кельвинах, отнимаем от  273, чтобы получить значение в градусах Цельсия
@@ -69,7 +69,7 @@ fetch('http://api.openweathermap.org/data/2.5/weather?id=698740&lang=ru&appid=da
         //Обрабатываем ошибки
     });
 
-    fetch('http://api.openweathermap.org/data/2.5/weather?id=687700&lang=ru&appid=da43f579966c655f6cd49823daa4c4ef').then(function (resp) {return resp.json() }).then(function (data) {
+    fetch('https://api.openweathermap.org/data/2.5/weather?id=687700&lang=ru&appid=da43f579966c655f6cd49823daa4c4ef').then(function (resp) {return resp.json() }).then(function (data) {
     //добавляем название города
     document.querySelector('.weather__city6').textContent = data.name;
     //data.main.temp содержит значение в Кельвинах, отнимаем от  273, чтобы получить значение в градусах Цельсия
@@ -83,7 +83,7 @@ fetch('http://api.openweathermap.org/data/2.5/weather?id=698740&lang=ru&appid=da
         //Обрабатываем ошибки
     });
 
-    fetch('http://api.openweathermap.org/data/2.5/weather?id=3117735&lang=ru&appid=da43f579966c655f6cd49823daa4c4ef').then(function (resp) {return resp.json() }).then(function (data) {
+    fetch('https://api.openweathermap.org/data/2.5/weather?id=3117735&lang=ru&appid=da43f579966c655f6cd49823daa4c4ef').then(function (resp) {return resp.json() }).then(function (data) {
         //добавляем название города
         document.querySelector('.weather__city7').textContent = data.name;
         //data.main.temp содержит значение в Кельвинах, отнимаем от  273, чтобы получить значение в градусах Цельсия
@@ -97,7 +97,7 @@ fetch('http://api.openweathermap.org/data/2.5/weather?id=698740&lang=ru&appid=da
             //Обрабатываем ошибки
         });
 
-    fetch('http://api.openweathermap.org/data/2.5/weather?id=2950159&lang=ru&appid=da43f579966c655f6cd49823daa4c4ef').then(function (resp) {return resp.json() }).then(function (data) {
+    fetch('https://api.openweathermap.org/data/2.5/weather?id=2950159&lang=ru&appid=da43f579966c655f6cd49823daa4c4ef').then(function (resp) {return resp.json() }).then(function (data) {
         //добавляем название города
         document.querySelector('.weather__city8').textContent = data.name;
         //data.main.temp содержит значение в Кельвинах, отнимаем от  273, чтобы получить значение в градусах Цельсия
@@ -111,7 +111,7 @@ fetch('http://api.openweathermap.org/data/2.5/weather?id=698740&lang=ru&appid=da
             //Обрабатываем ошибки
         });
 
-    fetch('http://api.openweathermap.org/data/2.5/weather?id=6455259&lang=ru&appid=da43f579966c655f6cd49823daa4c4ef').then(function (resp) {return resp.json() }).then(function (data) {
+    fetch('https://api.openweathermap.org/data/2.5/weather?id=6455259&lang=ru&appid=da43f579966c655f6cd49823daa4c4ef').then(function (resp) {return resp.json() }).then(function (data) {
         //добавляем название города
         document.querySelector('.weather__city9').textContent = data.name;
         //data.main.temp содержит значение в Кельвинах, отнимаем от  273, чтобы получить значение в градусах Цельсия
@@ -125,7 +125,7 @@ fetch('http://api.openweathermap.org/data/2.5/weather?id=698740&lang=ru&appid=da
             //Обрабатываем ошибки
         });
 
-    fetch('http://api.openweathermap.org/data/2.5/weather?id=2761369&lang=ru&appid=da43f579966c655f6cd49823daa4c4ef').then(function (resp) {return resp.json() }).then(function (data) {
+    fetch('https://api.openweathermap.org/data/2.5/weather?id=2761369&lang=ru&appid=da43f579966c655f6cd49823daa4c4ef').then(function (resp) {return resp.json() }).then(function (data) {
         //добавляем название города
         document.querySelector('.weather__city10').textContent = data.name;
         //data.main.temp содержит значение в Кельвинах, отнимаем от  273, чтобы получить значение в градусах Цельсия
@@ -139,7 +139,7 @@ fetch('http://api.openweathermap.org/data/2.5/weather?id=698740&lang=ru&appid=da
             //Обрабатываем ошибки
         });
     
-    fetch('http://api.openweathermap.org/data/2.5/weather?id=3169070&lang=ru&appid=da43f579966c655f6cd49823daa4c4ef').then(function (resp) {return resp.json() }).then(function (data) {
+    fetch('https://api.openweathermap.org/data/2.5/weather?id=3169070&lang=ru&appid=da43f579966c655f6cd49823daa4c4ef').then(function (resp) {return resp.json() }).then(function (data) {
         //добавляем название города
         document.querySelector('.weather__city11').textContent = data.name;
         //data.main.temp содержит значение в Кельвинах, отнимаем от  273, чтобы получить значение в градусах Цельсия
@@ -153,7 +153,7 @@ fetch('http://api.openweathermap.org/data/2.5/weather?id=698740&lang=ru&appid=da
             //Обрабатываем ошибки
         });
 
-    fetch('http://api.openweathermap.org/data/2.5/weather?id=3067696&lang=ru&appid=da43f579966c655f6cd49823daa4c4ef').then(function (resp) {return resp.json() }).then(function (data) {
+    fetch('https://api.openweathermap.org/data/2.5/weather?id=3067696&lang=ru&appid=da43f579966c655f6cd49823daa4c4ef').then(function (resp) {return resp.json() }).then(function (data) {
         //добавляем название города
         document.querySelector('.weather__city12').textContent = data.name;
         //data.main.temp содержит значение в Кельвинах, отнимаем от  273, чтобы получить значение в градусах Цельсия
